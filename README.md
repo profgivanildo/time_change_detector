@@ -6,7 +6,9 @@ A flutter plugin to detect change in device time, date and timezone for Android 
 ## Settings
 
 ### Android
-- minSdkVersion: 23
+- minSdkVersion: 21
+
+- targetSdkVersion: 31
 
 Your AndroidManifest.xml file should look like this:
 
@@ -35,6 +37,7 @@ Your AndroidManifest.xml file should look like this:
 ## TODO
 
 - [ ] Run time detector even app is completely closed.
+- [ ] Update Readme.md
 
 
 ## Contributing

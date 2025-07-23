@@ -64,7 +64,7 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
       });
 
   _initWatcher() {
-    _controller ??= TimeChangeDetector().listener(calendarDayChanged: false);
+    _controller ??= TimeChangeDetector.init;
     print(_message);
     _subscription = _controller!.listen((event) {
       setState(() => _message = '$EVENT_MESSAGE_SUCCESS: ${DateTime.now()}');
