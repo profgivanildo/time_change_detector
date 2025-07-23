@@ -28,7 +28,7 @@ android {
     if (project.android.hasProperty("namespace")) {
         namespace = "com.randomforest.time_change_detector"
     }
-
+    namespace "com.profgivanildo.time_change_detector"
     compileSdk = 34
 
     compileOptions {
